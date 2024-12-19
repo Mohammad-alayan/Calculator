@@ -1,7 +1,6 @@
 .bigcontainer{
     display: flex;
     justify-content: center;
-
 }
 .display{
     background-color: black;
@@ -9,29 +8,26 @@
     position: absolute;
     border-radius: 20px;
     display: flex;
-    width: auto;
+    width: 360px;
+
 }
 .input{
-    width: 100%;
-    height: 50px;
+    width: 300px;
     color: #f0a33b;
-    font-size: 45px;
     margin-top: 5px;
     justify-content: flex-start;
-    
+    font-size: 40px
 }
 .output{
-    width: 100%;
-    height: 50px;
     color: #f0a33b;
-    font-size: 45px;
+    font-size: 40px;
     align-self: flex-end;
-    margin-left: 120px;
+    margin-right: 13px;
+
 }
 .container{
     display: grid;
     grid-template-columns:repeat(4, 0.5fr) ;
-grid-column-gap: 20px;
 grid-row-gap: 38px;
 grid-auto-rows: 50px;
 background-color: black;
@@ -39,6 +35,8 @@ height: 660px;
 width: 400px;
 border-radius: 20px;
 border: 2px solid black ;
+
+
 }
 .items5,.items6,.items7,.items9,.items10,
 .items11,.items13,.items14,.items15,.items17,.items18,.items19{
@@ -46,6 +44,7 @@ margin-top: 220px;
     border-radius: 50%;
     font-size: 28px;
     border: 1px solid #343434;
+    margin-left:15px ;
     height: 80px;
     width: 80px;
 background-color: #343434;
@@ -53,6 +52,8 @@ color: white;
 }
 .items1,.items2,.items3{
     margin-top: 220px;
+    margin-left:15px ;
+
     border-radius: 50%;
     border: 1px solid #a5a5a5;
 
@@ -66,6 +67,7 @@ color: black;
     margin-top: 220px;
     border-radius: 50%;
     border: 1px solid #f0a33b;
+    margin-left:5px ;
 
 
     background-color: #f0a33b;
@@ -75,3 +77,8 @@ width: 80px;
 color: black;
 }
 
+button:hover{
+    background-color:#f0a33b;
+    transition: 0.2s;
+
+}
