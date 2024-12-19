@@ -76,6 +76,10 @@ height: 80px;
 width: 80px;
 color: black;
 }
+.items4:hover,.items8:hover,.items12:hover,.items16:hover,.items20:hover{
+    background-color:#343434;
+    color: #f0a33b;
+}
 
 button:hover{
     background-color:#f0a33b;
